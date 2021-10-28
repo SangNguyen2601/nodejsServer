@@ -26,13 +26,6 @@ class App {
         this.booksRoute.routes(this.app);
     }
     config() {
-        // this.app.all('', function(req, res, next) {
-        //     // res.header("Access-Control-Allow-Origin", "*");
-        //     res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
-        //     res.header('Access-Control-Allow-Headers', "X-Requested-With, Content-Type, Authorization");
-        //     //Auth Each API Request created by user.
-        //     next();
-        // });
         this.app.use(cors());
         // support application/json type post data
         this.app.use(bodyParser.json());

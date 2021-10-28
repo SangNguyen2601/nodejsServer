@@ -20,11 +20,11 @@ services:
       - mongo
 
 #client container
-  client:
-    build: client
-    image: client
-    ports:
-      - "4200:4200"
-    depends_on:
-      - mongo
-      - server
+  # client:
+  #   build: client
+  #   image: client
+  #   ports:
+  #     - "4200:4200"
+  #   depends_on:
+  #     - mongo
+  #     - server

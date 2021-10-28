@@ -1,5 +1,5 @@
 # Dockerfile  
-FROM node:12.16.1
+FROM node:14.15.0
 #RUN mkdir -p /usr/src/app/server
 WORKDIR /usr/src/app/server
 COPY ./package.json ./
