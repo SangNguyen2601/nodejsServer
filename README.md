@@ -10,3 +10,10 @@ Using NodeJS+Express with typescript make source code follow exactly SOLID patte
 
 You can run the server with docker file. Or run docker compose if you have client-side
 
+## Installation
+
+Use [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) command to install.
+
+```bash
+npm install
+```
